@@ -55,7 +55,7 @@ Bottles needs permission to access your USB hardware.
 1.  To prevent the interface from flickering under Wine : launch VirtualDJ -> **Settings** -> **OPTIONS**.
 2.  Search for `experimentalSkinEngine`.
 3.  Set it to **No**.
-4.  Don't forget to select the SIMPLE_MIDI_0_0 file in the controller mapping
+4.  Don't forget to select the SIMPLE_MIDI_0_0 file in the controller Edit mapping 
 <p align="center"> <img src="https://github.com/user-attachments/assets/af6e3027-f87f-40d6-a3d1-c5dbb870b274" width="600" title="VirtualDJ Settings"> </p>
 
 ## Mapping Details
