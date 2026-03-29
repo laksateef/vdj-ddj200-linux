@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:www.virtualdj.com)",
-      "WebSearch",
-      "WebFetch(domain:virtualdj.com)"
-    ]
-  }
-}
