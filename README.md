@@ -49,13 +49,13 @@ Bottles needs permission to access your USB hardware.
 >
 > **MIDI Documentation:** [DDJ-200 MIDI Message List](https://downloads.support.alphatheta.com/software_info/dj-controllers/DDJ-200/DDJ-200_MIDI_Message_List_E2.pdf)
 
-### 2. Graphics Fix (Flickering)
-To prevent the interface from flickering under Wine:
-1.  Launch VirtualDJ -> **Settings** -> **OPTIONS**.
+### 2. Setup VirtualDJ
+
+1.  To prevent the interface from flickering under Wine : launch VirtualDJ -> **Settings** -> **OPTIONS**.
 2.  Search for `experimentalSkinEngine`.
 3.  Set it to **No**.
 4.  Don't forget to select the SIMPLE_MIDI_0_0 file in the controller mapping
-<img width="945" height="695" alt="Copie d&#39;écran_20260329_151358" src="https://github.com/user-attachments/assets/af6e3027-f87f-40d6-a3d1-c5dbb870b274" />
+<p align="center"> <img src="[[LIEN_DE_TON_IMAGE]](https://github.com/user-attachments/assets/af6e3027-f87f-40d6-a3d1-c5dbb870b274)" width="600" title="VirtualDJ Settings"> </p>
 
 ## Mapping Details
 
