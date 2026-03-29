@@ -47,7 +47,7 @@ Bottles needs permission to access your USB hardware.
 >
 > If you need the Sampler or standard Hot Cues, this mapping is not suitable without manual XML modification.
 >
-> **Official MIDI Documentation:** [DDJ-200 MIDI Message List](https://downloads.support.alphatheta.com/software_info/dj-controllers/DDJ-200/DDJ-200_MIDI_Message_List_E2.pdf)
+> **MIDI Documentation:** [DDJ-200 MIDI Message List](https://downloads.support.alphatheta.com/software_info/dj-controllers/DDJ-200/DDJ-200_MIDI_Message_List_E2.pdf)
 
 ### 2. Graphics Fix (Flickering)
 To prevent the interface from flickering under Wine:
