@@ -33,10 +33,11 @@ This configuration was successfully tested on:
 
 ### 1. Flatpak Permissions for Bottles
 Bottles needs permission to access your USB hardware.
-* **Via Flatseal:** Select **Bottles**, go to the `Filesystem` section and enable `All system devices`.
+* Bus: Ensure USB is enabled. (device=usb)
+* **Via Flatseal:** Select **Bottles**, go to the `Device` section and enable `USB Devices (device=usb)`.
 * **Via Terminal:**
     ```bash
-    flatpak override --user --device=all com.usebottles.bottles
+    flatpak override --user --device=usb com.usebottles.bottles
     ```
 
 > [!IMPORTANT]
