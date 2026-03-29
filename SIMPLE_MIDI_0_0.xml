@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="SIMPLE_MIDI_0_0" version="850" date="2026-03-28">
+	<map value="CROSSFADER" action="crossfader" />
+	<map value="BROWSE" action="browser_scroll" />
+	<map value="BROWSE_ENTER" action="browser_enter" />
+	<map value="PLAY" action="play_pause" />
+	<map value="CUE" action="cue_stop" />
+	<map value="PFL" action="pfl" />
+	<map value="SYNC" action="sync" />
+	<map value="SHIFT" action="shift" />
+	<map value="WHEEL_TOUCH" action="wheel_touch" />
+	<map value="PITCH" action="pitch" />
+	<map value="VOLUME" action="volume" />
+	<map value="FILTER" action="filter" />
+	<map value="EQ_HIGH" action="eq_high" />
+	<map value="EQ_MID" action="eq_mid" />
+	<map value="EQ_LOW" action="eq_low" />
+	<map value="TOUCHWHEEL" action="touchwheel" />
+	<map value="JOGWHEEL" action="jogwheel" />
+	<map value="PAD1" action="mute_stem &quot;vocal&quot;" />
+	<map value="PAD2" action="mute_stem &quot;instru&quot;" />
+	<map value="PAD3" action="mute_stem &quot;bass&quot;" />
+	<map value="PAD4" action="mute_stem &quot;acapella&quot;" />
+	<map value="PAD5" action="mute_stem &quot;kick&quot;" />
+	<map value="PAD6" action="mute_stem &quot;hihat&quot;" />
+</mapper>

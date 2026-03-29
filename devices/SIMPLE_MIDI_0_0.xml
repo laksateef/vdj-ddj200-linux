@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device name="SIMPLE_MIDI_0_0" author="Feff" type="MIDI" decks="2"
+        drivername="DDJ-200 - DDJ-200 MIDI 1"
+        drivernameout="DDJ-200 - DDJ-200 MIDI 1"
+        midiin="3" midiout="3">
+
+    <!-- DECK 1 (channel 0) -->
+    <button note="0x0B" name="PLAY" deck="1" channel="0" toggle="true" />
+    <button note="0x0C" name="CUE" deck="1" channel="0" />
+    <button note="0x54" name="PFL" deck="1" channel="0" toggle="true" />
+    <button note="0x58" name="SYNC" deck="1" channel="0" toggle="true" />
+    <button note="0x3F" name="SHIFT" deck="1" channel="0" />
+    <button note="0x36" name="WHEEL_TOUCH" deck="1" channel="0" />
+
+    <led note="0x0B" name="LED_PLAY" default="PLAY" deck="1" channel="0" />
+    <led note="0x0C" name="LED_CUE" default="CUE" deck="1" channel="0" />
+    <led note="0x58" name="LED_SYNC" default="SYNC" deck="1" channel="0" />
+
+    <slider cc="0x00" name="PITCH" deck="1" channel="0" />
+    <slider cc="0x13" name="VOLUME" deck="1" channel="0" />
+    <slider cc="0x1A" name="FILTER" deck="1" channel="0" />
+    <slider cc="0x07" name="EQ_HIGH" deck="1" channel="0" />
+    <slider cc="0x0B" name="EQ_MID" deck="1" channel="0" />
+    <slider cc="0x0F" name="EQ_LOW" deck="1" channel="0" />
+
+    <encoder cc="0x21" name="TOUCHWHEEL" deck="1" channel="0" zero="0x40" />
+    <encoder cc="0x22" name="JOGWHEEL" deck="1" channel="0" zero="0x40" />
+
+    <!-- Shared -->
+    <slider cc="0x1F" name="CROSSFADER" channel="6" />
+    <encoder cc="0x40" name="BROWSE" channel="0" zero="0x40" />
+    <button note="0x41" name="BROWSE_ENTER" channel="0" />
+
+    <!-- DECK 2 (channel 1) -->
+    <button note="0x0B" name="PLAY" deck="2" channel="1" toggle="true" />
+    <button note="0x0C" name="CUE" deck="2" channel="1" />
+    <button note="0x54" name="PFL" deck="2" channel="1" toggle="true" />
+    <button note="0x58" name="SYNC" deck="2" channel="1" toggle="true" />
+    <button note="0x3F" name="SHIFT" deck="2" channel="1" />
+    <button note="0x36" name="WHEEL_TOUCH" deck="2" channel="1" />
+
+    <led note="0x0B" name="LED_PLAY" default="PLAY" deck="2" channel="1" />
+    <led note="0x0C" name="LED_CUE" default="CUE" deck="2" channel="1" />
+    <led note="0x58" name="LED_SYNC" default="SYNC" deck="2" channel="1" />
+
+    <slider cc="0x00" name="PITCH" deck="2" channel="1" />
+    <slider cc="0x13" name="VOLUME" deck="2" channel="1" />
+    <slider cc="0x1A" name="FILTER" deck="2" channel="1" />
+    <slider cc="0x07" name="EQ_HIGH" deck="2" channel="1" />
+    <slider cc="0x0B" name="EQ_MID" deck="2" channel="1" />
+    <slider cc="0x0F" name="EQ_LOW" deck="2" channel="1" />
+
+    <encoder cc="0x21" name="TOUCHWHEEL" deck="2" channel="1" zero="0x40" />
+    <encoder cc="0x22" name="JOGWHEEL" deck="2" channel="1" zero="0x40" />
+
+    <!-- PADS DECK 1 (channel 7) -->
+    <button note="0x00" name="PAD1" deck="1" channel="7" toggle="true" />
+    <button note="0x01" name="PAD2" deck="1" channel="7" toggle="true" />
+    <button note="0x02" name="PAD3" deck="1" channel="7" toggle="true" />
+    <button note="0x03" name="PAD4" deck="1" channel="7" toggle="true" />
+    <button note="0x04" name="PAD5" deck="1" channel="7" toggle="true" />
+    <button note="0x05" name="PAD6" deck="1" channel="7" toggle="true" />
+
+    <led note="0x00" name="LED_PAD1" default="PAD1" deck="1" channel="7" inverted="true" />
+    <led note="0x01" name="LED_PAD2" default="PAD2" deck="1" channel="7" inverted="true" />
+    <led note="0x02" name="LED_PAD3" default="PAD3" deck="1" channel="7" inverted="true" />
+    <led note="0x03" name="LED_PAD4" default="PAD4" deck="1" channel="7" inverted="true" />
+    <led note="0x04" name="LED_PAD5" default="PAD5" deck="1" channel="7" inverted="true" />
+    <led note="0x05" name="LED_PAD6" default="PAD6" deck="1" channel="7" inverted="true" />
+
+    <!-- PADS DECK 2 (channel 9) -->
+    <button note="0x00" name="PAD1" deck="2" channel="9" toggle="true" />
+    <button note="0x01" name="PAD2" deck="2" channel="9" toggle="true" />
+    <button note="0x02" name="PAD3" deck="2" channel="9" toggle="true" />
+    <button note="0x03" name="PAD4" deck="2" channel="9" toggle="true" />
+    <button note="0x04" name="PAD5" deck="2" channel="9" toggle="true" />
+    <button note="0x05" name="PAD6" deck="2" channel="9" toggle="true" />
+
+    <led note="0x00" name="LED_PAD1" default="PAD1" deck="2" channel="9" inverted="true" />
+    <led note="0x01" name="LED_PAD2" default="PAD2" deck="2" channel="9" inverted="true" />
+    <led note="0x02" name="LED_PAD3" default="PAD3" deck="2" channel="9" inverted="true" />
+    <led note="0x03" name="LED_PAD4" default="PAD4" deck="2" channel="9" inverted="true" />
+    <led note="0x04" name="LED_PAD5" default="PAD5" deck="2" channel="9" inverted="true" />
+    <led note="0x05" name="LED_PAD6" default="PAD6" deck="2" channel="9" inverted="true" />
+
+</device>
